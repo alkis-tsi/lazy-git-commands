@@ -10,9 +10,7 @@ mv gitpush /usr/local/bin
 ```
 
 ### gitcommit
-Will simply ask for your commit message and execute using the parameters:
--a, add file contents to the index  
--m, commit message to follow
+Will simply ask for your commit message, then it will add any new files and commit with the typed message.
 
 ### gitpush
-Will grab the current branch you are working on and will push to that using it as origin
+Will grab the current branch you are working on and will push to that using it as origin.
