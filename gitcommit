@@ -1,0 +1,5 @@
+#!/bin/bash
+echo "Write your command message here: "
+read commitmessage
+git add -A
+git commit -m "$commitmessage"
